@@ -3,29 +3,34 @@
 Pod::Spec.new do |s|
   s.name         = "WeexMapcomponent"
   s.version      = "0.0.1"
-  s.summary      = "Weex Plugin"
+  s.summary      = "Weex高德地图"
 
   s.description  = <<-DESC
-                   Weexplugin Source Description
-                   DESC
+                   weex高德地图
 
-  s.homepage     = "https://github.com"
+  s.homepage     = "https://github.com/WUBOSS/weex-mapcomponent"
   s.license = {
-    :type => 'Copyright',
+    :type => 'MIT',
     :text => <<-LICENSE
             copyright
     LICENSE
   }
   s.authors      = {
-                     "yourname" =>"youreamail"
+                     "WUBOSS" =>"1054258896@qq.com"
                    }
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'please input the url of your code in github', :tag => 'please input you github tag' }
-  s.source_files  = "ios/Sources/*.{h,m,mm}"
+  s.source       = { :git => 'https://github.com/WUBOSS/weex-mapcomponent.git', :tag => 'please input you github tag' }
+  s.source_files  = "ios/Sources","ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
+  s.dependency "MOBFoundation"
+  s.dependency "AMap3DMap"
+  s.dependency "AMapSearch"
+  s.dependency "AMapNavi"
+  s.dependency "MJExtension"
+  s.dependency 'SDWebImage', '3.7.5'
 end
