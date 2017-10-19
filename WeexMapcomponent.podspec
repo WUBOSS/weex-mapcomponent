@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'https://github.com/WUBOSS/weex-mapcomponent.git', :tag => 'please input you github tag' }
+  s.source       = { :git => 'https://github.com/WUBOSS/weex-mapcomponent.git', :tag => '0.0.1' }
   s.source_files  = "ios/Sources","ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
