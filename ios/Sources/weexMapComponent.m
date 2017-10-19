@@ -22,7 +22,7 @@
 @property(nonatomic,strong)MAMapView *mapview;
 @end
 @implementation weexMapComponent
-WX_PlUGIN_EXPORT_COMPONENT   (weexMapcomponent, weexMapComponent)
+WX_PlUGIN_EXPORT_COMPONENT   (WXMapComponent, weexMapComponent)
 WX_EXPORT_METHOD(@selector(isAbroad:))
 WX_EXPORT_METHOD(@selector(metersPerPointForCurrentZoom:))
 WX_EXPORT_METHOD(@selector(logoSize:))

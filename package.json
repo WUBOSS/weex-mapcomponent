@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "WeexSDKVersoin": "0.10.0",
   "//": "android工程安装配置",
+
   "ios": {
     "//": "安装类型为pod",
     "type": "pod",

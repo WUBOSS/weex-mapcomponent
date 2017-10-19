@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
                    weex高德地图
+                   DESC
 
   s.homepage     = "https://github.com/WUBOSS/weex-mapcomponent"
   s.license = {
